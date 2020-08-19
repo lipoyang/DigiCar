@@ -12,4 +12,4 @@ DigiCarは[デジもく会](https://dezimoku.connpass.com/)が企画していま
 ## ハードウェア
 
 - [回路図 (PDF)](hard/DigiCar.pdf)
-- [CADデータ (Eagle)](hard/)
+- [CADデータ (Eagle)](hard/)　(※アートワークは未着手)
