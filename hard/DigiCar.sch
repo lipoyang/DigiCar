@@ -2042,6 +2042,9 @@ Japanese symbol</description>
 <part name="R6" library="lipoyang_cr" deviceset="R-" device="CP-1608" value="10k"/>
 <part name="R7" library="lipoyang_cr" deviceset="R-" device="CP-1608" value="1k"/>
 <part name="R8" library="lipoyang_cr" deviceset="R-" device="CP-1608" value="1k"/>
+<part name="R9" library="lipoyang_cr" deviceset="R-" device="CP-1608" value="1k"/>
+<part name="LED3" library="lipoyang_discrete" deviceset="LED" device="1608" value="RED"/>
+<part name="GND28" library="lipoyang" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2060,17 +2063,17 @@ Japanese symbol</description>
 <text x="118.11" y="35.56" size="1.778" layer="97">no mount</text>
 <text x="39.37" y="115.57" size="1.778" layer="97">Pin 17-22 (IO6 - IO11) for internal Flash I/O</text>
 <text x="139.7" y="180.34" size="2.54" layer="97">SERVO</text>
-<text x="223.52" y="162.56" size="2.54" layer="97">TOF SENSOR</text>
-<wire x1="222.25" y1="115.57" x2="222.25" y2="76.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="222.25" y1="115.57" x2="364.49" y2="115.57" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="222.25" y1="76.2" x2="364.49" y2="76.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="364.49" y1="115.57" x2="364.49" y2="76.2" width="0.1524" layer="97" style="shortdash"/>
-<text x="222.25" y="116.84" size="1.778" layer="97">REAR</text>
-<text x="233.68" y="116.84" size="1.778" layer="97">no mount</text>
-<text x="223.52" y="157.48" size="1.778" layer="97">FRONT</text>
-<text x="245.11" y="157.48" size="1.778" layer="97">LEFT</text>
-<text x="288.29" y="157.48" size="1.778" layer="97">CENTER</text>
-<text x="331.47" y="157.48" size="1.778" layer="97">RIGHT</text>
+<text x="223.52" y="166.37" size="2.54" layer="97">TOF SENSOR</text>
+<wire x1="222.25" y1="119.38" x2="222.25" y2="80.01" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="222.25" y1="119.38" x2="364.49" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="222.25" y1="80.01" x2="364.49" y2="80.01" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="364.49" y1="119.38" x2="364.49" y2="80.01" width="0.1524" layer="97" style="shortdash"/>
+<text x="222.25" y="120.65" size="1.778" layer="97">REAR</text>
+<text x="233.68" y="120.65" size="1.778" layer="97">no mount</text>
+<text x="223.52" y="161.29" size="1.778" layer="97">FRONT</text>
+<text x="245.11" y="161.29" size="1.778" layer="97">LEFT</text>
+<text x="288.29" y="161.29" size="1.778" layer="97">CENTER</text>
+<text x="331.47" y="161.29" size="1.778" layer="97">RIGHT</text>
 <wire x1="116.84" y1="34.29" x2="147.32" y2="34.29" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="116.84" y1="8.89" x2="147.32" y2="8.89" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="116.84" y1="8.89" x2="116.84" y2="34.29" width="0.1524" layer="97" style="shortdash"/>
@@ -2081,9 +2084,19 @@ Japanese symbol</description>
 <wire x1="194.31" y1="8.89" x2="194.31" y2="57.15" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="260.35" y1="8.89" x2="260.35" y2="57.15" width="0.1524" layer="97" style="shortdash"/>
 <text x="219.71" y="58.42" size="1.778" layer="97">no mount</text>
+<wire x1="364.49" y1="46.99" x2="364.49" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="339.09" y1="46.99" x2="339.09" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="364.49" y1="68.58" x2="339.09" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="364.49" y1="46.99" x2="339.09" y2="46.99" width="0.1524" layer="97" style="shortdash"/>
+<text x="339.09" y="69.85" size="1.778" layer="97">no mount</text>
+<wire x1="331.47" y1="46.99" x2="297.18" y2="46.99" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="331.47" y1="68.58" x2="297.18" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="331.47" y1="46.99" x2="331.47" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="297.18" y1="46.99" x2="297.18" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
+<text x="297.18" y="69.85" size="1.778" layer="97">no mount</text>
 </plain>
 <instances>
-<instance part="TP1" gate="G$1" x="361.95" y="62.23"/>
+<instance part="TP1" gate="G$1" x="351.79" y="62.23"/>
 <instance part="V_BATT2" gate="G$1" x="57.15" y="241.3"/>
 <instance part="V_BATT1" gate="G$1" x="115.57" y="241.3"/>
 <instance part="+3V31" gate="G$1" x="161.29" y="241.3" smashed="yes">
@@ -2109,7 +2122,7 @@ Japanese symbol</description>
 <instance part="GND1" gate="1" x="115.57" y="208.28"/>
 <instance part="GND5" gate="1" x="133.35" y="208.28"/>
 <instance part="GND26" gate="1" x="132.08" y="13.97"/>
-<instance part="GND40" gate="1" x="361.95" y="52.07"/>
+<instance part="GND40" gate="1" x="351.79" y="52.07"/>
 <instance part="U4" gate="G$1" x="92.71" y="76.2"/>
 <instance part="SW1" gate="1" x="44.45" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.925" y="238.76" size="1.778" layer="95"/>
@@ -2153,36 +2166,36 @@ Japanese symbol</description>
 </instance>
 <instance part="GND14" gate="1" x="242.57" y="184.15"/>
 <instance part="GND15" gate="1" x="229.87" y="184.15"/>
-<instance part="+3V3" gate="G$1" x="248.92" y="151.13" smashed="yes">
-<attribute name="VALUE" x="246.38" y="147.32" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="248.92" y="154.94" smashed="yes">
+<attribute name="VALUE" x="246.38" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND18" gate="1" x="248.92" y="123.19"/>
-<instance part="CN5" gate="A" x="236.22" y="134.62"/>
-<instance part="+3V4" gate="G$1" x="292.1" y="151.13" smashed="yes">
-<attribute name="VALUE" x="289.56" y="147.32" size="1.778" layer="96" rot="R90"/>
+<instance part="GND18" gate="1" x="248.92" y="127"/>
+<instance part="CN5" gate="A" x="236.22" y="138.43"/>
+<instance part="+3V4" gate="G$1" x="292.1" y="154.94" smashed="yes">
+<attribute name="VALUE" x="289.56" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND20" gate="1" x="292.1" y="123.19"/>
-<instance part="CN6" gate="A" x="279.4" y="134.62"/>
-<instance part="+3V5" gate="G$1" x="335.28" y="151.13" smashed="yes">
-<attribute name="VALUE" x="332.74" y="147.32" size="1.778" layer="96" rot="R90"/>
+<instance part="GND20" gate="1" x="292.1" y="127"/>
+<instance part="CN6" gate="A" x="279.4" y="138.43"/>
+<instance part="+3V5" gate="G$1" x="335.28" y="154.94" smashed="yes">
+<attribute name="VALUE" x="332.74" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND21" gate="1" x="335.28" y="123.19"/>
-<instance part="CN7" gate="A" x="322.58" y="134.62"/>
-<instance part="+3V6" gate="G$1" x="248.92" y="110.49" smashed="yes">
-<attribute name="VALUE" x="246.38" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="GND21" gate="1" x="335.28" y="127"/>
+<instance part="CN7" gate="A" x="322.58" y="138.43"/>
+<instance part="+3V6" gate="G$1" x="248.92" y="114.3" smashed="yes">
+<attribute name="VALUE" x="246.38" y="110.49" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND22" gate="1" x="248.92" y="82.55"/>
-<instance part="CN8" gate="A" x="236.22" y="93.98"/>
-<instance part="+3V7" gate="G$1" x="292.1" y="110.49" smashed="yes">
-<attribute name="VALUE" x="289.56" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="GND22" gate="1" x="248.92" y="86.36"/>
+<instance part="CN8" gate="A" x="236.22" y="97.79"/>
+<instance part="+3V7" gate="G$1" x="292.1" y="114.3" smashed="yes">
+<attribute name="VALUE" x="289.56" y="110.49" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND23" gate="1" x="292.1" y="82.55"/>
-<instance part="CN9" gate="A" x="279.4" y="93.98"/>
-<instance part="+3V8" gate="G$1" x="335.28" y="110.49" smashed="yes">
-<attribute name="VALUE" x="332.74" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="GND23" gate="1" x="292.1" y="86.36"/>
+<instance part="CN9" gate="A" x="279.4" y="97.79"/>
+<instance part="+3V8" gate="G$1" x="335.28" y="114.3" smashed="yes">
+<attribute name="VALUE" x="332.74" y="110.49" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND24" gate="1" x="335.28" y="82.55"/>
-<instance part="CN10" gate="A" x="322.58" y="93.98"/>
+<instance part="GND24" gate="1" x="335.28" y="86.36"/>
+<instance part="CN10" gate="A" x="322.58" y="97.79"/>
 <instance part="CN12" gate="A" x="226.06" y="38.1"/>
 <instance part="V_BATT5" gate="G$1" x="217.17" y="49.53"/>
 <instance part="V_BATT6" gate="G$1" x="237.49" y="49.53"/>
@@ -2214,6 +2227,9 @@ Japanese symbol</description>
 <instance part="R6" gate="R" x="139.7" y="48.26"/>
 <instance part="R7" gate="R" x="77.47" y="29.21"/>
 <instance part="R8" gate="R" x="77.47" y="16.51"/>
+<instance part="R9" gate="R" x="314.96" y="62.23"/>
+<instance part="LED3" gate="G$1" x="322.58" y="59.69"/>
+<instance part="GND28" gate="1" x="322.58" y="52.07"/>
 </instances>
 <busses>
 </busses>
@@ -2286,7 +2302,7 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="P$1"/>
-<wire x1="361.95" y1="54.61" x2="361.95" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="351.79" y1="54.61" x2="351.79" y2="57.15" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2337,39 +2353,39 @@ Japanese symbol</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="143.51" x2="248.92" y2="143.51" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="248.92" y1="139.7" x2="248.92" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="143.51" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="CN5" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="139.7" x2="292.1" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="143.51" x2="292.1" y2="143.51" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="292.1" y1="139.7" x2="292.1" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="143.51" x2="292.1" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="139.7" x2="335.28" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="143.51" x2="335.28" y2="143.51" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="335.28" y1="139.7" x2="335.28" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="143.51" x2="335.28" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="102.87" x2="248.92" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="248.92" y1="99.06" x2="248.92" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="102.87" x2="248.92" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="CN8" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="99.06" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="102.87" x2="292.1" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="292.1" y1="99.06" x2="292.1" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="102.87" x2="292.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="CN9" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="99.06" x2="335.28" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="102.87" x2="335.28" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="335.28" y1="99.06" x2="335.28" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="102.87" x2="335.28" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="CN10" gate="A" pin="2"/>
 </segment>
 <segment>
@@ -2392,6 +2408,10 @@ Japanese symbol</description>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="R2" gate="R" pin="PIN1"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -2472,38 +2492,38 @@ Japanese symbol</description>
 <junction x="250.19" y="223.52"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="142.24" x2="248.92" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="146.05" x2="248.92" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="146.05" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <pinref part="CN5" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="142.24" x2="292.1" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="142.24" x2="292.1" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="146.05" x2="292.1" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="146.05" x2="292.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="CN6" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="142.24" x2="335.28" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="142.24" x2="335.28" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="146.05" x2="335.28" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="146.05" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="CN7" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="101.6" x2="248.92" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="105.41" x2="248.92" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="105.41" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <pinref part="CN8" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="101.6" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="101.6" x2="292.1" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="105.41" x2="292.1" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="105.41" x2="292.1" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <pinref part="CN9" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="101.6" x2="335.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="101.6" x2="335.28" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="105.41" x2="335.28" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="105.41" x2="335.28" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <pinref part="CN10" gate="A" pin="1"/>
 </segment>
@@ -2571,8 +2591,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN9" gate="A" pin="6"/>
-<wire x1="281.94" y1="88.9" x2="298.45" y2="88.9" width="0.1524" layer="91"/>
-<label x="299.72" y="88.9" size="1.778" layer="95"/>
+<wire x1="281.94" y1="92.71" x2="298.45" y2="92.71" width="0.1524" layer="91"/>
+<label x="299.72" y="92.71" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOTOR_B_IN1" class="0">
@@ -2595,8 +2615,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN8" gate="A" pin="6"/>
-<wire x1="238.76" y1="88.9" x2="255.27" y2="88.9" width="0.1524" layer="91"/>
-<label x="256.54" y="88.9" size="1.778" layer="95"/>
+<wire x1="238.76" y1="92.71" x2="255.27" y2="92.71" width="0.1524" layer="91"/>
+<label x="256.54" y="92.71" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -2633,8 +2653,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN10" gate="A" pin="6"/>
-<wire x1="325.12" y1="88.9" x2="341.63" y2="88.9" width="0.1524" layer="91"/>
-<label x="342.9" y="88.9" size="1.778" layer="95"/>
+<wire x1="325.12" y1="92.71" x2="341.63" y2="92.71" width="0.1524" layer="91"/>
+<label x="342.9" y="92.71" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -2644,33 +2664,33 @@ Japanese symbol</description>
 <wire x1="90.17" y1="171.45" x2="109.22" y2="171.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="137.16" x2="255.27" y2="137.16" width="0.1524" layer="91"/>
-<label x="256.54" y="137.16" size="1.778" layer="95"/>
+<wire x1="238.76" y1="140.97" x2="255.27" y2="140.97" width="0.1524" layer="91"/>
+<label x="256.54" y="140.97" size="1.778" layer="95"/>
 <pinref part="CN5" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="137.16" x2="298.45" y2="137.16" width="0.1524" layer="91"/>
-<label x="299.72" y="137.16" size="1.778" layer="95"/>
+<wire x1="281.94" y1="140.97" x2="298.45" y2="140.97" width="0.1524" layer="91"/>
+<label x="299.72" y="140.97" size="1.778" layer="95"/>
 <pinref part="CN6" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="137.16" x2="341.63" y2="137.16" width="0.1524" layer="91"/>
-<label x="342.9" y="137.16" size="1.778" layer="95"/>
+<wire x1="325.12" y1="140.97" x2="341.63" y2="140.97" width="0.1524" layer="91"/>
+<label x="342.9" y="140.97" size="1.778" layer="95"/>
 <pinref part="CN7" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="96.52" x2="255.27" y2="96.52" width="0.1524" layer="91"/>
-<label x="256.54" y="96.52" size="1.778" layer="95"/>
+<wire x1="238.76" y1="100.33" x2="255.27" y2="100.33" width="0.1524" layer="91"/>
+<label x="256.54" y="100.33" size="1.778" layer="95"/>
 <pinref part="CN8" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="96.52" x2="298.45" y2="96.52" width="0.1524" layer="91"/>
-<label x="299.72" y="96.52" size="1.778" layer="95"/>
+<wire x1="281.94" y1="100.33" x2="298.45" y2="100.33" width="0.1524" layer="91"/>
+<label x="299.72" y="100.33" size="1.778" layer="95"/>
 <pinref part="CN9" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="96.52" x2="341.63" y2="96.52" width="0.1524" layer="91"/>
-<label x="342.9" y="96.52" size="1.778" layer="95"/>
+<wire x1="325.12" y1="100.33" x2="341.63" y2="100.33" width="0.1524" layer="91"/>
+<label x="342.9" y="100.33" size="1.778" layer="95"/>
 <pinref part="CN10" gate="A" pin="3"/>
 </segment>
 <segment>
@@ -2686,33 +2706,33 @@ Japanese symbol</description>
 <label x="110.49" y="163.83" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="134.62" x2="255.27" y2="134.62" width="0.1524" layer="91"/>
-<label x="256.54" y="134.62" size="1.778" layer="95"/>
+<wire x1="238.76" y1="138.43" x2="255.27" y2="138.43" width="0.1524" layer="91"/>
+<label x="256.54" y="138.43" size="1.778" layer="95"/>
 <pinref part="CN5" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="134.62" x2="298.45" y2="134.62" width="0.1524" layer="91"/>
-<label x="299.72" y="134.62" size="1.778" layer="95"/>
+<wire x1="281.94" y1="138.43" x2="298.45" y2="138.43" width="0.1524" layer="91"/>
+<label x="299.72" y="138.43" size="1.778" layer="95"/>
 <pinref part="CN6" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="134.62" x2="341.63" y2="134.62" width="0.1524" layer="91"/>
-<label x="342.9" y="134.62" size="1.778" layer="95"/>
+<wire x1="325.12" y1="138.43" x2="341.63" y2="138.43" width="0.1524" layer="91"/>
+<label x="342.9" y="138.43" size="1.778" layer="95"/>
 <pinref part="CN7" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="93.98" x2="255.27" y2="93.98" width="0.1524" layer="91"/>
-<label x="256.54" y="93.98" size="1.778" layer="95"/>
+<wire x1="238.76" y1="97.79" x2="255.27" y2="97.79" width="0.1524" layer="91"/>
+<label x="256.54" y="97.79" size="1.778" layer="95"/>
 <pinref part="CN8" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="93.98" x2="298.45" y2="93.98" width="0.1524" layer="91"/>
-<label x="299.72" y="93.98" size="1.778" layer="95"/>
+<wire x1="281.94" y1="97.79" x2="298.45" y2="97.79" width="0.1524" layer="91"/>
+<label x="299.72" y="97.79" size="1.778" layer="95"/>
 <pinref part="CN9" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="93.98" x2="341.63" y2="93.98" width="0.1524" layer="91"/>
-<label x="342.9" y="93.98" size="1.778" layer="95"/>
+<wire x1="325.12" y1="97.79" x2="341.63" y2="97.79" width="0.1524" layer="91"/>
+<label x="342.9" y="97.79" size="1.778" layer="95"/>
 <pinref part="CN10" gate="A" pin="4"/>
 </segment>
 <segment>
@@ -2804,8 +2824,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN5" gate="A" pin="6"/>
-<wire x1="238.76" y1="129.54" x2="255.27" y2="129.54" width="0.1524" layer="91"/>
-<label x="256.54" y="129.54" size="1.778" layer="95"/>
+<wire x1="238.76" y1="133.35" x2="255.27" y2="133.35" width="0.1524" layer="91"/>
+<label x="256.54" y="133.35" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOF_SHDN1" class="0">
@@ -2816,8 +2836,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN6" gate="A" pin="6"/>
-<wire x1="281.94" y1="129.54" x2="298.45" y2="129.54" width="0.1524" layer="91"/>
-<label x="299.72" y="129.54" size="1.778" layer="95"/>
+<wire x1="281.94" y1="133.35" x2="298.45" y2="133.35" width="0.1524" layer="91"/>
+<label x="299.72" y="133.35" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOF_SHDN2" class="0">
@@ -2828,8 +2848,8 @@ Japanese symbol</description>
 </segment>
 <segment>
 <pinref part="CN7" gate="A" pin="6"/>
-<wire x1="325.12" y1="129.54" x2="341.63" y2="129.54" width="0.1524" layer="91"/>
-<label x="342.9" y="129.54" size="1.778" layer="95"/>
+<wire x1="325.12" y1="133.35" x2="341.63" y2="133.35" width="0.1524" layer="91"/>
+<label x="342.9" y="133.35" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO35" class="0">
@@ -3119,6 +3139,18 @@ Japanese symbol</description>
 <pinref part="CN12" gate="A" pin="13"/>
 <wire x1="223.52" y1="25.4" x2="212.09" y2="25.4" width="0.1524" layer="91"/>
 <label x="205.74" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="309.88" y1="62.23" x2="304.8" y2="62.23" width="0.1524" layer="91"/>
+<label x="299.72" y="62.23" size="1.778" layer="95"/>
+<pinref part="R9" gate="R" pin="PIN1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R9" gate="R" pin="PIN2"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="322.58" y1="62.23" x2="320.04" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
