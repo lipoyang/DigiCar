@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -182,8 +182,6 @@
 <wire x1="117.590759375" y1="41.94806875" x2="117.590759375" y2="34.44806875" width="0.127" layer="21"/>
 <wire x1="117.590759375" y1="34.44806875" x2="126.57241875" y2="34.44806875" width="0.127" layer="21"/>
 <wire x1="126.57241875" y1="34.44806875" x2="126.57241875" y2="38.94806875" width="0.127" layer="21"/>
-<circle x="45.132040625" y="33.71083125" radius="1.25" width="0" layer="20"/>
-<circle x="45" y="39.5" radius="1.25" width="0" layer="20"/>
 <wire x1="55.065859375" y1="31.71083125" x2="55.065859375" y2="8.71083125" width="0.127" layer="21"/>
 <wire x1="55.065859375" y1="8.71083125" x2="56.565859375" y2="8.71083125" width="0.127" layer="21"/>
 <wire x1="56.565859375" y1="8.71083125" x2="59.565859375" y2="11.71083125" width="0.127" layer="21" curve="90"/>
