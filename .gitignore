@@ -3,3 +3,5 @@ ArduinoOutput
 build
 *.b#?
 *.s#?
+*.brd.lck
+*.sch.lck
